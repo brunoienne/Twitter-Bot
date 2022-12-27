@@ -23,7 +23,7 @@ function readParams() {
 function getTweets(since_id) {
     return new Promise((resolve, reject) => {
         let params = {
-            from: 'elonmusk',
+            from: 'hardmob_promo',
             count: 2
         };
         if (since_id) {
